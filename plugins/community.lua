@@ -6,7 +6,23 @@ return {
 
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
-   { import = "astrocommunity.motion.mini-move" },
-   { import = "astrocommunity.utility.noice-nvim" },
-   { import = "astrocommunity.markdown-and-latex.glow-nvim"}
+
+  -- Motion
+  { import = "astrocommunity.motion.mini-move" },
+
+  -- Utility
+  { import = "astrocommunity.utility.noice-nvim" },
+
+  -- Markdown and LaTeX
+  { import = "astrocommunity.markdown-and-latex.glow-nvim" },
+
+  -- Color
+  { import = "astrocommunity.color.headlines-nvim" },
+
+  -- Completion
+  { import = "astrocommunity.completion.tabnine-nvim" },
+
+  -- Packs
+  { import = "astrocommunity.pack.markdown" },
+  { import = "astrocommunity.pack.lua" },
 }

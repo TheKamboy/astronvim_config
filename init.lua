@@ -82,5 +82,7 @@ return {
     --     ["~/%.config/foo/.*"] = "fooscript",
     --   },
     -- }
+    vim.o.spelllang = "en_us"
+    vim.o.spell = true
   end,
 }
